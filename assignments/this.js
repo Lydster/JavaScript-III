@@ -1,10 +1,10 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. window binding 
-* 2. 
-* 3. 
-* 4. 
+* 1. window binding is when the this keyword refers to the entirety of javascript in the window. it is a global binding.
+* 2. Implicit binding is when a binding refers to to whatever is to the left of the this keey words. Wherever this is called
+* 3. a new binding is when you create a new object from a constructor function
+* 4. explicit binding is when you call a function using the bind, apply, or call keey words.
 *
 * write out a code example of each explanation above
 */
