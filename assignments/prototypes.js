@@ -36,7 +36,7 @@ function CharacterStats(stattributes) {
   this.name = stattributes.name;
 
 }
-//not sure about this either
+
 CharacterStats.prototype = Object.create(GameObject.prototype)
 
 CharacterStats.prototype.takeDamage = function() {
@@ -59,9 +59,7 @@ CharacterStats.prototype.takeDamage = function() {
    this.team = Hattributes.team;
    this.weapons = Hattributes.weapons;
    this.language = Hattributes.language;
-   //CharacterStats.call(this, Hattributes);
-  //this.destroy = Hattributes.destroy;
-  //CharacterStats.call(this, Hattributes);
+ 
  }
 Humanoid.prototype = Object.create(CharacterStats.prototype)
 
